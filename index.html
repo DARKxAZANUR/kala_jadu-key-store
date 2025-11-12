@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Key Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 GAME KEY GENERATOR 🎮</h1>
+            <p>Select duration and get your gaming key!</p>
+        </div>
+        
+        <div class="key-panel">
+            <div class="duration-selector">
+                <h3>Select Duration:</h3>
+                <div class="duration-buttons">
+                    <button class="duration-btn active" data-duration="1">1 Day</button>
+                    <button class="duration-btn" data-duration="30">30 Days</button>
+                    <button class="duration-btn" data-duration="60">60 Days</button>
+                </div>
+            </div>
+            
+            <div class="key-display">
+                <h3>Your Key:</h3>
+                <div class="key-box" id="keyDisplay">
+                    Click on duration to generate key
+                </div>
+                <button class="generate-btn" id="generateBtn">Generate Key</button>
+            </div>
+            
+            <div class="status" id="statusMessage"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
